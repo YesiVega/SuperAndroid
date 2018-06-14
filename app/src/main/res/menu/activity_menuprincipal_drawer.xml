@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Lista"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mis Listas" />
+        <item
+            android:id="@+id/nav_Productos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Buscar Productos" />
+        <item
+            android:id="@+id/nav_Ofertas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ofertas" />
+        <item
+            android:id="@+id/nav_Pagos"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Pagos" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/layout_content_MenuPrincipal"
+    android:background="@drawable/p1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pc5.ventasyesi.menuprincipal"
+    tools:showIn="@layout/app_bar_menuprincipal">
+
+    <TextView
+        android:id="@+id/pr_tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Listas Movil"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fbf8f8"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/pr_iv_imagen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/images" />
+
+</RelativeLayout>

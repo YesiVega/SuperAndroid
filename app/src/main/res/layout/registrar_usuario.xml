@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p1">
+
+    <TextView
+        android:id="@+id/ru_tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registrar Usuario"
+        android:textSize="20dp"
+        android:textColor="#fbf8f8" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/ru_tv_nick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nick"
+            android:textColor="#fbf8f8"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ru_et_nick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#fbf8f8"
+            android:textStyle="bold">
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/ru_tv_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="telefono"
+            android:textColor="#fbf8f8"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ru_et_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:textColor="#fbf8f8"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/ru_bt_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Registar"
+        android:textColor="#fbf8f8"
+        android:textStyle="bold" />
+
+</LinearLayout>

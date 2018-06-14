@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ventasyesi</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="title_activity_menuprincipal">Menu Principal</string>
+
+    <string name="what_s_on_your_mind">Ingrese su pregunta</string>
+
+
+    <string name="navigation_drawer_open">Abrir Menu Navegacion</string>
+    <string name="navigation_drawer_close">Cerrar Menu Navegacion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola Fragment en blanco</string>
+    <string name="Mislistas_Mensaje">Mis Listas</string>
+
+    <string-array name="opciones_producto">
+        <item>Buscar</item>
+        <item>Scannear</item>
+    </string-array>
+    <string name="title_activity_mi_mapa">Map</string>
+
+</resources>
